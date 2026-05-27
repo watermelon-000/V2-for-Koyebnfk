@@ -2,7 +2,7 @@
 
 # 定义 UUID 及 伪装路径,请自行修改.(注意:伪装路径以 / 符号开始,为避免不必要的麻烦,请不要使用特殊符号.)
 base64 -d config > config.json
-UUID=${UUID:-'267d8f2b-6b19-4e56-879c-566a70dcf273'}
+UUID=${UUID:-'d55c9c69-25ee-438d-87f7-ff6e084c00b5'}
 VMESS_WSPATH=${VMESS_WSPATH:-'/vmess'}
 VLESS_WSPATH=${VLESS_WSPATH:-'/vless'}
 sed -i "s#UUID#$UUID#g;s#VMESS_WSPATH#${VMESS_WSPATH}#g;s#VLESS_WSPATH#${VLESS_WSPATH}#g" config.json
